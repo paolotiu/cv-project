@@ -1,0 +1,13 @@
+.profile-pic{
+    height: 120px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.general-info{
+    margin-bottom: 400px;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}

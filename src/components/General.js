@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import {onChangeHandler, submitHandler} from './helper'
+import cat from '../static/cat.jpg'
+import './General.css'
+
 class GeneralInfo extends Component {
     constructor(props) {
         super(props)
@@ -20,24 +23,21 @@ class GeneralInfo extends Component {
 
         if (!editing) {
             return (
-                <div>
+                <div className="general-info">
+                    <img src={cat} alt="" className="profile-pic"/>
                     <p>
                         {firstName} {lastName}
                     </p>
                     <p>{email}</p>
                     <p>{number}</p>
-
-                    <button
-                        type="button"
-                        onClick={() => this.setState({ editing: true })}
-                    >
-                        Edit
-                    </button>
+                    <span className="material-icons edit"  onClick={() => this.setState({ editing: true })}>
+                    edit
+                    </span>
                 </div>
             )
         } else {
             return (
-                <div>
+                <div className="general-info">
                     <form onSubmit={this.submitHandler}>
                         <div className="name">
                             <input

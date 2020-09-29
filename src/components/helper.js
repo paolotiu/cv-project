@@ -2,7 +2,9 @@ function onChangeHandler(e) {
     let input = e.target.name
     this.setState({
         [input]: e.target.value,
-    })
+        })
+    
+    
 }
 
 function submitHandler(e) {
@@ -11,5 +13,7 @@ function submitHandler(e) {
         editing: false,
     })
 }
+
+
 
 export {onChangeHandler, submitHandler}

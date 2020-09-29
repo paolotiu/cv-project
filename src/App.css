@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    width: 190px;
+    height: 100vh;
+    float: left;
+    position: absolute;
+    background: whitesmoke;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+.edit{
+    font-size: 15px;
+    cursor: pointer;
+}
