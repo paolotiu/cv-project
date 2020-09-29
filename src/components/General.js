@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import {onChangeHandler, submitHandler} from './helper'
 class GeneralInfo extends Component {
     constructor(props) {
         super(props)
@@ -11,22 +11,8 @@ class GeneralInfo extends Component {
             email: 'paolotiu17@gmail.com',
         }
 
-        this.onChangeHandler = this.onChangeHandler.bind(this)
-        this.submitHandler = this.submitHandler.bind(this)
-    }
-
-    onChangeHandler(e) {
-        let input = e.target.name
-        this.setState({
-            [input]: e.target.value,
-        })
-    }
-
-    submitHandler(e) {
-        e.preventDefault()
-        this.setState({
-            editing: false,
-        })
+        this.onChangeHandler = onChangeHandler.bind(this)
+        this.submitHandler = submitHandler.bind(this)
     }
 
     render() {
@@ -90,6 +76,8 @@ class GeneralInfo extends Component {
         }
     }
 }
+
+
 
 // class Name extends Component{
 //     constructor(props){
