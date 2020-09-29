@@ -30,9 +30,15 @@ class GeneralInfo extends Component {
                     </p>
                     <p>{email}</p>
                     <p>{number}</p>
+                    {/* <div className="button-group">
+                        <Btn name="Experience"/>
+                        <Btn name="Projects"/>
+                    </div> */}
+                    <br/>
                     <span className="material-icons edit"  onClick={() => this.setState({ editing: true })}>
                     edit
                     </span>
+                    
                 </div>
             )
         } else {
@@ -46,6 +52,8 @@ class GeneralInfo extends Component {
                                 value={firstName}
                                 onChange={this.onChangeHandler}
                             />
+                            <br/>
+                            <br/>
                             <input
                                 type="text"
                                 name="lastName"
@@ -78,36 +86,10 @@ class GeneralInfo extends Component {
 }
 
 
-
-// class Name extends Component{
-//     constructor(props){
-//         super(props)
-//         this.state = {
-
-//         }
-
-//     }
-
-//     render(){
-//         let {firstName, lastName, onChangeHandler, submitHandler} = this.props
-//         if(!this.props.editing){
-//             return(
-//                 <p>{firstName} {lastName}</p>
-//                 )
-//         }else{
-//             return(
-//             <div>
-//                 <form onSubmit={submitHandler}>
-//                     <input type="text" name='firstName' value={firstName} onChange={onChangeHandler}/>
-//                     <input type="text" name='lastName' value={lastName} onChange={onChangeHandler}/>
-//                     <button type='submit'> Submit </button>
-//                 </form>
-//             </div>
-//             )
-
-//         }
-
-//     }
-// }
+function Btn(props){
+    return(
+        <button className="btn btn-light" >{props.name}</button>
+    )
+}
 
 export default GeneralInfo

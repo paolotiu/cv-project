@@ -1,0 +1,33 @@
+.text{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.maintext{
+    margin: 20px auto;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    white-space: pre-line;
+}
+
+.card{
+    width: 18rem;
+    margin-top: 30px;
+}
+
+.projects{
+    display: flex;
+    width: 70%;
+    margin: auto auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -2,12 +2,32 @@
     height: 120px;
     width: 130px;
     border-radius: 50%;
+    display: inline-block;
 }
 
 .general-info{
-    margin-bottom: 400px;
-    height: 250px;
+    padding: 10px 0;
+    max-height: 250px;
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.general-info > p{
+    margin: 0 0;
+}
+
+.general-info > form {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-group{
+    width: 50%;
+    display: flex;
     justify-content: space-between;
 }
