@@ -1,6 +1,20 @@
 .header{
     padding: 5px 0 2px 0;
     text-align: center;
-    background: lightsteelblue;
+    background: #b8cfe6;
     font-family: 'Courier Prime', monospace;
+    position: relative;
+}
+
+.header > p{
+    margin-left: 35px;
+    display: inline;
+}
+
+.header > a>  img{
+    position: static;
+    height: 20px;
+    float: right;
+    margin-top: 1px;
+    margin-right: 10px;
 }

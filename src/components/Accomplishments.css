@@ -6,6 +6,7 @@
 }
 
 .maintext{
+    
     margin: 20px auto;
 }
 
@@ -20,6 +21,10 @@
 .card{
     width: 18rem;
     margin-top: 30px;
+}
+
+.card-title{
+    color: #23226b;
 }
 
 .projects{

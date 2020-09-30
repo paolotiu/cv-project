@@ -16,7 +16,7 @@ class Accomplishments extends Component{
             titleTemp: '',
             paragraphTemp: '',
             titles: ['Education', 'Skills'],
-            paragraphs: ['- Finished High School 2021', '-Proficient in Javascript(ES6) \n -Proficient in HTML and CSS \n -Basic skills in Python 3+']
+            paragraphs: ['- Finished High School 2021', '-Proficient in Javascript(ES6) \n -Proficient in HTML and CSS \n -Basic skills in Python 3+ \n -Basic understanding of React JS']
         }
 
         this.submitHandler = this.submitHandler.bind(this);

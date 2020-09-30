@@ -8,6 +8,10 @@ p{
 }
 
 body{
+    color: black;
+    background-image: url('./static/cool-background.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
