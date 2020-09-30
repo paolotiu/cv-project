@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/cv-project/static/css/main.6eaf6cf4.chunk.css",
-    "main.js": "/cv-project/static/js/main.4e2a7dc1.chunk.js",
-    "main.js.map": "/cv-project/static/js/main.4e2a7dc1.chunk.js.map",
+    "main.css": "/cv-project/static/css/main.7d69e6dc.chunk.css",
+    "main.js": "/cv-project/static/js/main.2a30baa3.chunk.js",
+    "main.js.map": "/cv-project/static/js/main.2a30baa3.chunk.js.map",
     "runtime-main.js": "/cv-project/static/js/runtime-main.d91c792d.js",
     "runtime-main.js.map": "/cv-project/static/js/runtime-main.d91c792d.js.map",
-    "static/js/2.91514d73.chunk.js": "/cv-project/static/js/2.91514d73.chunk.js",
-    "static/js/2.91514d73.chunk.js.map": "/cv-project/static/js/2.91514d73.chunk.js.map",
+    "static/js/2.05f53cd8.chunk.js": "/cv-project/static/js/2.05f53cd8.chunk.js",
+    "static/js/2.05f53cd8.chunk.js.map": "/cv-project/static/js/2.05f53cd8.chunk.js.map",
     "index.html": "/cv-project/index.html",
-    "precache-manifest.b7ace78f20420cd209bcfb09398152c7.js": "/cv-project/precache-manifest.b7ace78f20420cd209bcfb09398152c7.js",
+    "precache-manifest.a177eebe79d81ec7addfc6fa7e356d01.js": "/cv-project/precache-manifest.a177eebe79d81ec7addfc6fa7e356d01.js",
     "service-worker.js": "/cv-project/service-worker.js",
-    "static/css/main.6eaf6cf4.chunk.css.map": "/cv-project/static/css/main.6eaf6cf4.chunk.css.map",
-    "static/js/2.91514d73.chunk.js.LICENSE.txt": "/cv-project/static/js/2.91514d73.chunk.js.LICENSE.txt",
+    "static/css/main.7d69e6dc.chunk.css.map": "/cv-project/static/css/main.7d69e6dc.chunk.css.map",
+    "static/js/2.05f53cd8.chunk.js.LICENSE.txt": "/cv-project/static/js/2.05f53cd8.chunk.js.LICENSE.txt",
     "static/media/cat.jpg": "/cv-project/static/media/cat.8f84b2f4.jpg",
+    "static/media/App.css": "/cv-project/static/media/cool-background.38c65c76.svg",
     "static/media/google.png": "/cv-project/static/media/google.8095dcec.png",
     "static/media/resto.png": "/cv-project/static/media/resto.f372a29b.png",
     "static/media/tictac.png": "/cv-project/static/media/tictac.1eae9dfa.png",
@@ -20,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d91c792d.js",
-    "static/js/2.91514d73.chunk.js",
-    "static/css/main.6eaf6cf4.chunk.css",
-    "static/js/main.4e2a7dc1.chunk.js"
+    "static/js/2.05f53cd8.chunk.js",
+    "static/css/main.7d69e6dc.chunk.css",
+    "static/js/main.2a30baa3.chunk.js"
   ]
 }
